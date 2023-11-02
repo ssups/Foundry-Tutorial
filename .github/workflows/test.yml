@@ -6,7 +6,6 @@ on:
     types: [opened, synchronize]
     branches:
       - main
-    paths: ["src/**", "test/**"]
 
 env:
   FOUNDRY_PROFILE: ci
