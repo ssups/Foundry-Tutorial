@@ -12,3 +12,9 @@ docs/
 
 # Dotenv file
 .env
+
+# hardhat files
+node_modules
+artifacts
+
+package-lock.json
