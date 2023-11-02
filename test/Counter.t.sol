@@ -21,4 +21,9 @@ contract CounterTest is Test {
         counter.setNumber(x);
         assertEq(counter.number(), x);
     }
+
+    function test_SetNumberOverflow() public mayRevert() {
+        counter.setNumber(type(uint256).max);
+        counter.increment();
+    }
 }
