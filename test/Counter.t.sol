@@ -26,4 +26,6 @@ contract CounterTest is Test {
         counter.setNumber(type(uint256).max);
         counter.increment();
     }
+
+    
 }
